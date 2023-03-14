@@ -1,0 +1,28 @@
+.progress {
+    height: 25px;
+    animation: loading 1s ease-in-out;
+}
+
+@keyframes loading {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+
+.card {
+    animation: card-flip 1s ease-in-out;
+}
+
+@keyframes card-flip {
+    0% {
+        transform: rotateY(0deg);
+    }
+
+    100% {
+        transform: rotateY(360deg);
+    }
+}
